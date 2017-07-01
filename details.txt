@@ -1,0 +1,45 @@
+EAN Analytics Case Study
+===========================================================
+
+This case study contains information on hotel bookings for one market for a set of stay-dates (arrival-departure combination).
+In addition you have information about the searches made, including the prices shown. You are also provided with hotel characteristics.
+
+Your job is to analyse the data to understand hotel pricing and consumer hotel preferences.
+	
+Expected output:	
+	A document detailing your findings
+	Code or documentation to reproduce any analysis you have performed
+
+Tips:
+	If you are not familiar with the travel industry spend a short amount of time on a travel website (e.g. expedia.com)
+	Plots will help you understand the datasets
+	Focus on, at most, one or two statistical or machine learning techniques (less is more)
+	Spend time on the explanation - it's no use using a smart approach if you don't explain it clearly
+	
+Good Luck!	
+	
+Data Description
+
+Dates are all specified number of days from an origin date.
+For example
+	origin date = '2015-01-01'
+	search_date[1] = '2015-01-01' > represented as 0
+	arrival[1] = '2015-01-10’ > represented as 9
+	departure[1] = ‘2015-01-17’ > represented as 16
+
+File: case_study_data.csv
+'search_date' - Date the booking was made
+'arrival' - Arrival date for the stay
+'departure' - Departure date for the stay
+'num_adults' - Number of adults for the stay
+'num_children' - Number of children for the stay
+‘search_id’ - ID of the search
+‘hotel_id’ - Hotel ID
+'hotel_price' - Price shown for this combination of hotels, search_date, arrival, departure, num_adults and num_children
+'is_promo' - Is the price shown a promotion offer
+'hotel_feature_1' - Hotel feature (characteristic) 1
+'hotel_feature_2' - Hotel feature (characteristic) 2
+'hotel_feature_3' - Hotel feature (characteristic) 3
+'hotel_feature_4' - Hotel feature (characteristic) 4
+'hotel_feature_5' - Hotel feature (characteristic) 5
+'booked - Flag indicating if the hotel was booked
